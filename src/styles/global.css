@@ -3,6 +3,9 @@
     padding: 0;
     border: 0;
 }
+body{
+    background-color:var(--color--black--) ;
+}
 h1{
     font-size: 58px;
 }
@@ -16,14 +19,14 @@ h3{
 :root{
     --primary--color--blue:#23A6F0;
     --light--color--white:#F2F2F2;
-    --light--background--white:#FFFFFF;
+    --light--text--white:#FFFFFF;
     --second--neutral--white:#F9F9F9;
     --text--color--grey:#737373;
     --muted--grey--color:#BDBDBD;
     --color--neutral--grey:#DDDDDD;
     --color--yellow:#F3CD03;
     --color--light--blue:#8EC2F2;
-    --color--black:#252B42;
+    --color--black--:#252B42;
 
     --font--family--bold:'Montserrat Bold';
     --font--family--regular:'Montserrat Regular';
@@ -31,5 +34,7 @@ h3{
     --font--family--extrabold:'Montserrat ExtraBold';
     --font-family--medium:'Montserrat Medium';
 
+ 
 
+    --font--size--p:14px;
 }

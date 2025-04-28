@@ -1,1 +1,46 @@
 @import url(./global.css);
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--light--text--white);
+    padding: 30px 15px;
+    margin: 0px 263px 40px 263px;
+    gap:120px;
+}
+.nav-header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+.nav-header a {
+    text-decoration: none;
+    color: var(--light--text--white);
+}
+.buttons-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.btn-joinUs{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: var( --primary--color--blue);
+    color: var(--light--text--white);
+    font-size: var(--font--size--p);
+    padding: 15px 25px;
+    width: 220px;
+}
+.buttons-header a{
+    text-decoration: none;
+    color: var(--light--text--white);
+}
+.active{
+    color: var(--text--color--grey);
+}
