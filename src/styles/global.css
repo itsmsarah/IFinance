@@ -5,6 +5,7 @@
 }
 body{
     background-color:var(--color--black--) ;
+    font-family: 'Montserrat';
 }
 h1{
     font-size: 58px;
