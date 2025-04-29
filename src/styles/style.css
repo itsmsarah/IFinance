@@ -120,7 +120,6 @@ main{
 }
 .better-strategy-content p{
     color: var( --text--color--grey);
-    width: 470px;
     margin-top: 10px;
 
 }
@@ -151,4 +150,64 @@ main{
 }
 /* FIM DA SECTION BETTER-STATEGY */
 
+/* COMEÇO DA SECTION COMENTS */
 
+.comments{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    margin: 0px 265px 112px 195px;
+}
+.coments-container{
+    padding: 80px 0px;
+}
+.clients-say-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+}
+.clients-say-content h2{
+    color: var(--light--text--white);
+    width: 451px;
+    text-transform: capitalize;
+}
+.coments-content{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 35px;
+    width: 744px;
+    margin-top: 80px;
+    background-color: var(--light--text--white);
+    border-radius: 5px;
+}
+.coments-img{
+    margin-bottom: 30px;
+
+}
+.coments-content p{
+    color: var(--text--color--grey);
+    font-size: var(--font--size--p);
+    width: 433px;
+    margin-bottom: 15px;
+}
+.coments-estrelinhas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px
+}
+.coments-content h3{
+    font-size: var( --font--size--h3);
+    color: var(  --color--black--);
+    margin-bottom: 8px;
+}
+.coments-content h4{
+    color: var(--text--color--grey);
+    font-size: var(--font--size--p);
+    font-weight:600;
+}
