@@ -13,9 +13,13 @@ h1{
 h2{
     font-size: 40px;
 }
-h3{
-    font-size: 24px;
+.p-problems{
+    margin-top: 10px;
+    color: var(--light--text--white);
+    width: 470px;
+
 }
+
 
 :root{
     --primary--color--blue:#23A6F0;
@@ -38,4 +42,5 @@ h3{
  
 
     --font--size--p:14px;
+    
 }

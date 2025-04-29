@@ -99,3 +99,56 @@ main{
     border-radius: 37px;
     padding: 15px 36px;
 }
+/* FIM DO MAIN */
+
+/* COMEÇO DA SECTION BETTER-STATEGY */
+.better-stategy{
+    margin: 0px 231px 30px 231px;
+}
+.better-strategy-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 45px 180.5px;
+    margin-bottom: 24px;
+}
+.better-strategy-content h2{
+    color: var(--light--text--white);
+    width: 451px;
+    text-transform: capitalize;
+}
+.better-strategy-content p{
+    color: var( --text--color--grey);
+    width: 470px;
+    margin-top: 10px;
+
+}
+.better-stategy-blocks{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.statety-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid var(--light--text--white);
+    padding: 35px 20px;
+    border-radius: 2px;
+
+}
+.block-content{
+    color: var(--light--text--white);
+}
+.block-content h3{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.block-content p{
+    width: 213px;
+}
+/* FIM DA SECTION BETTER-STATEGY */
+
+
