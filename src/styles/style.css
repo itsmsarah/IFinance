@@ -259,6 +259,16 @@ main{
 /* FIM DA DOWNLOAD ARTICLE */
 
 /* COMEÇO DA PRICING */
+.pricing{
+    margin: 0px 195px 60px 195px;
+}
+.pricing-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 0px 160px 0px;
+}
 .pricing-content {
     display: flex;
     flex-direction: column;
