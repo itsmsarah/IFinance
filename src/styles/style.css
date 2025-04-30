@@ -174,7 +174,7 @@ main{
     text-transform: capitalize;
 }
 .coments-content{
-        display: flex;
+     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -210,4 +210,48 @@ main{
     color: var(--text--color--grey);
     font-size: var(--font--size--p);
     font-weight:600;
+}
+/* FIM DA COMENTS SECTION */
+
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 231px 80px 231px;
+}
+
+.download-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 80px 221.5px 0px 221.5px;
+}
+.download-content h2{
+    color: var(--light--text--white);
+    width: 451px;
+    text-transform: capitalize;
+}
+.download-options{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);        
+    /* grid-template-columns: 1fr;           */
+    gap: 10px;
+    padding:0px 51.5px 60px 51.5px;
+}
+.download-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 18px 28px;
+    width: 214px;
+    border: 1px solid var(--light--text--white);
+    border-radius: 10px;    
+    color: var(--light--text--white);
+}
+.card-content p{
+  font-weight: 600;
+  margin-bottom: 5px;
 }
