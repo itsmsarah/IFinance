@@ -326,5 +326,28 @@ main{
 .card-value p:nth-child(2){
     color: var(--color--light--blue);
     font-size: var(--font--size--p)
-
 }
+/* FIM DA PRICING ARTICLE */
+
+/* COMEÇO DA WORLD SECTION */
+.world{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 141px;
+    margin: 0px 196px 51px 196px;
+}
+.world-content{
+    padding: 50px 0px;
+}
+.world h2{
+    width: 476px;
+    text-transform: capitalize;
+    color:var(--light--text--white);
+    margin-bottom: 15px;
+}
+.world p{
+    color: var(--light--text--white);
+    width: 450px;
+}
+/* FIM DA WORLD SECTION */
