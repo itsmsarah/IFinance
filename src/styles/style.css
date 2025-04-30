@@ -213,6 +213,7 @@ main{
 }
 /* FIM DA COMENTS SECTION */
 
+/* COMEÇO DA DOWNLOAD ARTICLE */
 .download{
     display: flex;
     flex-direction: column;
@@ -254,4 +255,66 @@ main{
 .card-content p{
   font-weight: 600;
   margin-bottom: 5px;
+}
+/* FIM DA DOWNLOAD ARTICLE */
+
+/* COMEÇO DA PRICING */
+.pricing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 160px 208.5px 96px 208.5px;
+}
+.pricing-content h2{
+    color: var(--light--text--white);
+}
+.pricing-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light--text--white);
+    gap: 30px;
+    width: 511px;
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.card-pricing-content h3{
+    color: var(--primary--color--blue);
+    font-size: var(--font--size--h3);
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.card-pricing-content p{
+    color: var(--text--color--grey);
+    font-size: var(--font--size--p);
+    width: 217px;
+}
+.card-price {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.card-price h4{
+    color: var(--primary--color--blue);
+  
+    font-weight: 700;
+    font-size: 40px;
+}
+.card-value{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.card-value p:nth-child(1){
+    color: var(--primary--color--blue);
+    font-weight: 700;
+    font-size: 16px;
+}
+.card-value p:nth-child(2){
+    color: var(--color--light--blue);
+    font-size: var(--font--size--p)
+
 }
