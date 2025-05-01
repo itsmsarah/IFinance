@@ -351,3 +351,77 @@ main{
     width: 450px;
 }
 /* FIM DA WORLD SECTION */
+
+/* COMEÇO DA SECTION FORMULARIO */
+
+.formulario-appoiment{
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    padding: 50px 0px;
+    margin: 0px 231px 49px 231px;
+    
+}
+
+.img_forms{
+   height: 610px;
+}
+form{
+    height: 610px;
+    width: 610px;
+    padding: 40px 50px;
+    background-color: var(--light--text--white);
+    box-sizing: border-box;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 40px;
+    
+}
+fieldset legend{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: var(--font--size--h3);
+    color: var(--color--black--);
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+fieldset label{
+    color: var(--color--black--);
+    font-size: var(--font--size--p);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+fieldset input{
+    margin-bottom: 10px;
+    width: 507px;
+    height: 50px;
+    background-color: var(--second--neutral--white);
+    border: 1px solid var(--color--border--grey);
+    border-radius: 5px;
+}
+fieldset select{
+    margin-bottom: 10px;
+    width: 507px;
+    height: 50px;
+    color: var(--text--color--grey);
+    background-color: var(--second--neutral--white);
+    border: 1px solid var(--color--border--grey);
+    border-radius: 5px;
+    padding: 14px 0px 20px 18.5px;
+}
+form button{
+    width: 510px;
+    padding: 15px 40px;
+    background-color: var(--primary--color--blue);
+    color: var(--light--text--white);
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+input::placeholder{
+    color:var( --text--color--grey);
+    padding: 11px 401.5px 20px 21.5px;
+}
