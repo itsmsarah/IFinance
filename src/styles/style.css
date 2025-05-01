@@ -48,6 +48,19 @@ header{
 .buttons-main{
     text-transform: capitalize;
 }
+.menu-toggle{
+     
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    display: none;
+}
+
+.menu{
+    height: 3px;
+    width: 24px;
+    background-color: var(--light--text--white);    
+}
 /* FIM DO HEADER */
 
 /* COMEÇO DO MAIN */
